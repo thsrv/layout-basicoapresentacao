@@ -1,0 +1,165 @@
+body{
+	background-color:#808080;
+}
+header{
+	display: flex;
+	justify-content: center;
+	height: 43px;
+	
+}
+.container{
+	display: flex;
+	width: 788px;
+	background-color: #333;
+
+	
+}
+.container-interno{
+	width: 633px;
+	display: flex;
+	justify-content: space-between;
+	margin:auto;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	height: 40px;
+}
+.redes-sociais{
+	display: flex;
+	align-items: center;
+}
+.redes-sociais a{
+	padding:2px;
+}
+.container-section{
+
+}
+section{
+	display: flex;
+	justify-content: center;
+	height: 280px;
+
+}
+.container-section{
+	display: flex;
+	width: 788px;
+	background-color:#2B96A4;
+}	
+.container-section-interno{
+	display: flex;
+	width: 633px;
+	margin:auto;
+}
+.video{
+	margin-top: 45px;
+	margin-bottom: 25px;
+}
+.description{
+	margin-left: 12px;
+}
+.description h2{
+	margin-top: 43px;
+	font-family: Lucida Handwriting;
+	font-size: 21px;
+	color:#FBFBF9;
+}
+.description p{
+	margin-top:20px;
+	font-size:12px;
+	font-family: arial;
+	color:#b6ebf5;
+}
+.bnt-get{
+	width: 135px;
+	height: 32px;
+	box-shadow: 0px 0px 2px #90EE90;
+	text-align: center;
+	line-height:32px;
+	font-size:16px;
+	background-color: #538D8C;
+	margin-bottom: 25px;
+}
+.bnt-get img{
+	width: 17px;
+	height: 14px;
+
+}
+.bnt-get a{
+	text-decoration: none;
+}
+.bnt-get:hover{
+	background-color: #5ccfcd;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	height: 266px;
+}
+.container-footer{
+	display: flex;
+	width: 788px;
+	background-color: #fff;
+
+}
+.container-footer-interno{
+	display: flex;
+	margin: auto;
+	margin-top: 27px;
+	width: 633px;
+	flex-wrap: wrap;
+}
+
+.title-footer{
+	width: 633px;
+	margin-top: 0;
+	margin: auto;
+	text-align: center;
+	font-size: 27px;
+	font-family: Lucida Handwriting;
+	color:#000;
+	
+	
+}
+.description-footer{
+	font-family: arial;
+	font-size: 10px;
+	color:#a7a7a7;
+	text-align: center;
+	margin: auto;
+	margin-top:15px;
+
+}
+.information-footer{
+	margin-top:27px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.information-footer-img img{
+	margin-left:110px ;
+	justify-content: center;
+}
+.information-title{
+	display: flex;
+	justify-content: center;
+	font-family: Lucida Handwriting;
+	font-size:16px;
+	margin-left: 59px;
+
+}
+
+.information-description{
+	display: flex;
+	justify-content: center;
+	margin-left: 50px;
+	font-family: arial;
+	font-size: 10px;
+	color:#a7a7a7;
+	
+
+}
+
